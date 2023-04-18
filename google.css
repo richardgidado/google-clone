@@ -1,0 +1,305 @@
+    header {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 15px;
+      /* position: -webkit-sticky; */
+      position: sticky;
+      top: 0;
+      background-color: white;
+      box-shadow: 0px 0px 5px rgba(119, 112, 112, 0.5);
+
+
+
+    }
+
+    h5 {
+      text-align: center;
+    }
+
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      overflow-x: hidden;
+      /* padding-left: 50px; */
+      /* padding-right: 50px; */
+      padding-bottom: 25px;
+
+
+
+    }
+
+    .header1 {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    .header1 nav a:hover {
+      border-bottom: 2px solid black;
+      /* text-decoration-line: none; */
+      color: green;
+    }
+
+    .header1 nav a {
+      text-decoration: none;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: black;
+      /* padding-left: 10px; */
+    }
+
+    .header1 nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      /* padding-left: 10px; */
+    }
+
+    .header1 div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .header2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 60px;
+      gap: 30px;
+    }
+
+    .header5 {
+      background-color: rgb(192, 93, 93);
+      border-radius: 50%;
+      font-size: 20px;
+      width: 35px;
+      height: 35px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .navad {
+      text-decoration-line: none;
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      padding: auto;
+    }
+
+
+
+    .sector {
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 20px;
+
+    }
+
+    .sector *::-webkit-scrollbar {
+      height: 5px;
+      /* width: 5px; */
+      background: rgb(138, 155, 138);
+      border-radius: 10px;
+    }
+
+
+
+
+
+
+
+    .sector .navad a:hover {
+      color: green;
+      background-color: rgba(226, 223, 223, 0.5);
+    }
+
+
+    .navad a {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+      padding: 5px 20px;
+      border: 1px solid darkgrey;
+      border-radius: 30px;
+      text-decoration-line: none;
+      color: black;
+    }
+
+    .secter {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      overflow-x: scroll;
+    }
+
+
+    .secter div {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      /* flex-wrap: wrap; */
+
+    }
+
+    .secter div img {
+      border-radius: 10px;
+    }
+
+    table,
+    tr,
+    td {
+      border: 0px solid black;
+    }
+
+    .secter td {
+      padding-top: 5px;
+    }
+
+    .secter div:hover {
+      background-color: rgba(214, 207, 207, 0.4);
+      border-radius: 5px;
+    }
+
+    .sectra {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      overflow-x: scroll;
+
+
+
+    }
+
+    .sectra div {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      /* flex-wrap: wrap; */
+
+    }
+
+    .sectra div img {
+      border-radius: 10px;
+    }
+
+    table,
+    tr,
+    td {
+      border: 0px solid black;
+    }
+
+    .sectra td {
+      padding-top: 5px;
+    }
+
+    .sectra div:hover {
+      background-color: rgba(214, 207, 207, 0.4);
+      border-radius: 5px;
+    }
+
+    .sectrum {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      overflow-x: scroll;
+
+
+
+    }
+
+    .sectrum div {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      /* flex-wrap: wrap; */
+
+    }
+
+    .sectrum div img {
+      border-radius: 10px;
+    }
+
+    table,
+    tr,
+    td {
+      border: 0px solid black;
+    }
+
+    .sectrum td {
+      padding-top: 5px;
+    }
+
+    .sectrum div:hover {
+      background-color: rgba(214, 207, 207, 0.4);
+      border-radius: 5px;
+    }
+
+    .linka {
+      text-decoration-line: none;
+      color: black;
+      display: flex;
+      justify-content: center;
+      font-size: small;
+      font-weight: 540;
+    }
+
+    .linko {
+      display: flex;
+      flex-direction: row;
+      gap: 250px;
+    }
+
+
+    footer .linko ul {
+      padding: 0%;
+      margin: 0%;
+    }
+
+    footer .linko ul li {
+      line-height: 2.0;
+
+    }
+
+    footer .linko ul li a {
+      color: black;
+      text-decoration-line: none;
+
+    }
+
+    footer .linko ul li a:hover {
+      color: green;
+
+    }
+
+    .footers {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .linkad {
+      display: flex;
+      gap: 30px;
+
+    }
+
+    .linkad a {
+      color: black;
+      text-decoration-line: none;
+      word-spacing: 1px;
+
+    }
+
+    .linkad a:hover {
+      color: green;
+    }
