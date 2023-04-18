@@ -18,6 +18,11 @@
       text-align: center;
     }
 
+    html{
+            overflow-x: hidden;
+      max-width: 100vw;
+
+    }
 
     body {
       margin: 0;
@@ -26,7 +31,7 @@
       /* padding-left: 50px; */
       /* padding-right: 50px; */
       padding-bottom: 25px;
-
+      max-width: 100vw;
 
 
     }
@@ -303,3 +308,45 @@
     .linkad a:hover {
       color: green;
     }
+    @media screen and (max-width:620px){
+      .header2{
+        display:none;
+      }
+      .header1{
+        width:100%;
+        justify-content: space-around;
+      }
+      header{
+        padding-left: 0;
+      }
+    }
+@media screen and (max-width:600px){
+  .header1 nav{
+    display:none;
+  }
+  .navad{
+    display:grid;
+    grid-template-columns: auto auto ;
+    align-items:center;
+    justify-items: center;
+    
+  }
+  .navad a{
+   min-width: 100px;
+justify-content: center;  }
+
+
+}
+@media screen and (max-width:580px){
+  .sector{
+padding-left: 10px;
+padding-right: 10px;
+  }
+
+}
+@media screen and (max-width:380px){
+.navad{
+  grid-template-columns: auto;
+}
+
+}
